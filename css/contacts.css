@@ -1,0 +1,30 @@
+#c1{
+  padding-left: 255px;
+}
+#tel{
+  padding-left: 210px;
+}
+.telefon{
+  text-align: left;
+}
+.icons{
+  margin-bottom: -60px;
+}
+#cns{
+  margin-right: 10px;
+  margin-left: 70px;
+}
+#p3{
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+.importnt{
+  background-color: #A486CC;
+  text-align: center;
+  padding-bottom: 10px;
+  margin-top: 20px;
+  font-weight: bold;
+  margin-right: 350px;
+  margin-left: 380px;
+}
