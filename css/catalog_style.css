@@ -186,6 +186,7 @@ header{
 
 .imgp{
   margin-top: 60px;
+  margin-bottom: 30px;
 }
 
 .icons{
@@ -208,4 +209,7 @@ a{
 
 a:hover{
   color: #E2D6FA;
+}
+.repl{
+  background: #fff;
 }
