@@ -52,6 +52,9 @@
 hr{
   background-color: #473366;
   height: 0px;
+  width: 1000px;
+  margin-left: 270px;
+
 }
 p{
   text-align:center;
@@ -212,4 +215,26 @@ a:hover{
 }
 .repl{
   background: #fff;
+}
+
+#current{
+  color:#473366;
+}
+
+.main0{
+  padding-top: 40px;
+}
+#main:hover{
+  color: #E2D6FA;
+}
+#main{
+  color: #000;
+}
+#ct,#bt{
+  font-family: Roboto;
+  text-shadow: 1px 1px 2px #473366;
+  color: #A486CC;
+}
+#bt{
+  font-size: 29px;
 }
