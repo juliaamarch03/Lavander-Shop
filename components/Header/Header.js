@@ -7,7 +7,7 @@ class Header{
     const html = `
       <div class="header-container">
             <div class="header-counter" onclick="headerPage.handlerOpenShoppingPage();">
-                🎆${count}</div>
+                <p id="pp">${count}</p></div>
       </div>
     `;
     ROOT_HEADER.innerHTML = html;
