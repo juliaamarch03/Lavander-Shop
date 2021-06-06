@@ -40,8 +40,8 @@ class Shopping{
                 <input type="email" class="ip" placeholder="Email(не обов'язково)"><br>
                 <input type="text" class="ip" placeholder="Область"><br>
                 <input type="text" class="ip" placeholder="Місто"><br>
-                <input type="text" class="ip" placeholder="Відділення пошти"><br>
-                <a href="lastp.html" class="bttn" onclick="localStorage.clear(); location.reload();;">Підтвердити замовлення</a><br>
+                <input type="text" class="ip" placeholder="Відділення пошти"><br><br><br><br><br>
+                <a href="lastp.html" class="bttn" onclick="localStorage.clear(); location.reload();">Підтвердити замовлення</a><br>
             </div>
           </div>
     `;
