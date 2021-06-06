@@ -2,9 +2,83 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <link rel="stylesheet" href="css/catalog_style.css">
+    <link rel="stylesheet" href="css/general_page.css">
+    <link rel="stylesheet" href="css/replacement_and_return.css">
+      <link rel="stylesheet" href="css/flower_bouquet.css">
+    <link rel="shortcut icon" href="images/logo_ico.ico">
+    <title>Каталог</title>
   </head>
   <body>
-    Подарунки
+    <div class="wrapper">
+      <header>
+              <nav>
+                  <ul>
+                      <li><a href="about_us.html"class="a1" style="padding-left:610px;">Про нас</a></li>
+                      <li><a href="contacts.html" class="a1">Контакти</a></li>
+                      <li><a href="delivery_payment.html" class="a1">Доставка і оплата</a></li>
+                  </ul>
+              </nav>
+      </header>
+      <div id="header"></div>
+      <div id="shopping"></div>
+              <div class="content">
+              <p class="imgp"><img src="images/logo.jpg" alt="Lavanda shop logo" width="700" height="300"></p>
+              <div class="repl">
+                <p class="main0"><a href="index.html" class="main">Головна</a>/<a href="catalog.html" class="main">Каталог</a>/Подарунки</p>
+                  <p class="mainp1">Подарунки</p>
+                        <!--Каталог-->
+                      <div id="products"></div>
+                  </div>
+              <div class="penultimate">
+                    <div class="col1">
+                          <p class="mainText">Lavanda Shop</p>
+                          <p class="secText">Квіти - це не просто подарунок для кожного,<br>
+                             а прояв емоцій до людини. Тому наше завдання <br>
+                             допомогти вам зручно і швидко їх проявляти.<br>
+                             Lavanda Shop - більше ніж подарунок.</p>
+                          <p class="lastText">© Lavanda Shop 2021</p>
+                    </div>
+                    <div class="col2">
+                          <p class="mainText">Клієнтам</p>
+                          <p class="secondText"><a href="delivery_payment.html">Доставка і оплата</a></p>
+                          <p class="lastText"><a href="contacts.html">Контакти</a></p>
+                          <p class="lastText"><a href="replacement_and_return.html">Заміна і повернення</a></p>
+                    </div>
+                    <div class="col3">
+                          <p class="mainText">Компанія</p>
+                          <p class="secondText"><a href="about_us.html">Про нас</a></p>
+                    </div>
+              </div>
+              <div class="icons">
+                    <table>
+                      <tr>
+                        <td class="ic" style="padding-left: 680px;margin-right: 10px;
+                          "><a href="#" target="_blank"><img src="images/icons/ig.png"
+                            width="60" height="60" alt="Instagram" style="margin-right: 10px;"></a></td>
+                        <td class="ic"><a href="#"target="_blank"><img src="images/icons/fb.png"
+                          width="45" height="45" alt="Facebook" style="margin-right: 15px;"></a></td>
+                        <td class="ic"><a href="#" target="_blank"><img src="images/icons/tg.png"
+                          width="50" height="50" alt="Telegram"></a></td></tr>
+                    </table>
+              </div>
+            </div>
+        <footer class="footer">
+          <p class="ftr">Made by Lightsaber</p>
+        </footer>
+    </div>
+
+      <script src="constants/gifts/catalog.js"></script>
+      <script src="constants/gifts/root.js"></script>
+      <script src="utils/localStorageUtils.js"></script>
+
+      <script src="components/Header/Header.js"></script>
+      <link rel="stylesheet" href="components/Header/Header.css">
+
+      <script src="components/gifts/Products/Products.js"></script>
+      <link rel="stylesheet" href="components/gifts/Products/Products.css">
+
+      <script src="components/Shopping/Shopping.js"></script>
+      <link rel="stylesheet" href="components/Shopping/Shopping.css">
   </body>
 </html>
