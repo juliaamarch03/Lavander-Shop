@@ -20,7 +20,7 @@ const CATALOG = [
   {
     id: '103',
     name: 'Квіти в коробці 103',
-    img: 'images/goods/boxflower/bf1.JPG',
+    img: 'images/goods/boxflower/bf4.JPG',
     price: 350,
   },
 ];

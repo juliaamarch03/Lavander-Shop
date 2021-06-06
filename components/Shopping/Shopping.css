@@ -1,13 +1,16 @@
 .shopping-container{
-  width: 97%;
-  height: 97vh;
-  position: fixed;
+  width: 70%;
+  height: 50%;
+  position: absolute;
   top:50%;
   left: 50%;
+  margin-left: 200px;
+  margin-right: 200px;
   transform: translate(-50%,-50%);
   margin: auto;
   background-color: #fff;
   box-shadow: var(--box-shadow);
+  border-radius: 15px;
 }
 .shopping-element_name{
     padding: var(--spacing-medium);
@@ -16,6 +19,11 @@
 .shopping-element_price{
     padding: var(--spacing-medium);
     color: var(--color-unaccent);
+}
+.shopping-element_img{
+  width: 100px;
+  height: 100px;
+  margin-left: 60px;
 }
 .shopping-close{
   position: absolute;
@@ -27,4 +35,50 @@
    background-position: center center;
    background-size: contain;
    cursor: pointer;
+}
+.form-inner{
+  padding-top: 50px;
+  text-align: center;
+}
+.ip{
+  padding-top: 20px;
+  margin-top: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 10px;
+  border: none;
+  background: #E9EFF6;
+  color: #000;
+  font-size: 19px;
+}
+.bttn{
+  margin-top: 20px;
+  border-radius: 29px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: #473366;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+}
+#f{
+  text-align: center;
+  margin-top: 40px;
+}
+#suma{
+  padding-left: 800px;
+  font-size: 25px;
+  font-weight: bold;
+}
+#rez{
+  color:black;
+  font-size: 25px;
+  font-weight: bold;
+}
+#h{
+  width: 500px;
+  margin-right: 590px;
+  margin-left: 280px;
 }
