@@ -44,7 +44,10 @@
   font-weight: bold;
   font-size: 15px;
   cursor: pointer;
+  border: none;
 }
 .products-element_btn_active{
   background-color: #BADFE8;
+  color: #000;
+  border: none;
 }
