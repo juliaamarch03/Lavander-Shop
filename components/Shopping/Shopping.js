@@ -36,13 +36,19 @@ class Shopping{
               </table>
               <div class="form-inner">
                 <hr id="h">
-                <input type="text" class="ip" placeholder="ПІБ"><br>
-                <input type="text" class="ip" placeholder="Номер телефону"><br>
-                <input type="email" class="ip" placeholder="Email(не обов'язково)"><br>
-                <input type="text" class="ip" placeholder="Область"><br>
-                <input type="text" class="ip" placeholder="Місто"><br>
-                <input type="text" class="ip" placeholder="Відділення пошти"><br><br><br><br><br>
+                <form action="mail.php" method="POST">
+                <input type="text" class="ip" name="user_name" placeholder="ПІБ"><br>
+                <input type="text" class="ip" name="user_phone" placeholder="Номер телефону"><br>
+                <input type="email" class="ip" name="user_email" placeholder="Email(не обов'язково)"><br>
+                <input type="text" class="ip" name="user_oblast" placeholder="Область"><br>
+                <input type="text" class="ip" name="user_city" placeholder="Місто"><br>
+                <input type="text" class="ip" name="user_numpost" placeholder="Відділення пошти"><br><br><br><br><br>
+                <button type="submit" class="btn btn-primary" onclick="localStorage.clear(); location.reload();>Підтвердити замовлення</button>
                 <a href="lastp.html" class="bttn" onclick="localStorage.clear(); location.reload();">Підтвердити замовлення</a><br>
+                </form>
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+                <script src="http://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
             </div>
           </div>
     `;
