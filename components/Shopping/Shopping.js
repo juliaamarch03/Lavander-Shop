@@ -16,6 +16,7 @@ class Shopping{
                     <td><img class="shopping-element_img" src="${img}" /></td>
                     <td class="shopping-element_name">${name}</td>
                     <td class="shopping-element_price">${price.toLocaleString()} UAN</td>
+                    <td></td>
                 </tr>
             `;
             sumCatalog += price;
