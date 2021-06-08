@@ -10,6 +10,7 @@ $email = $_POST['user_email'];
 $oblast = $_POST['user_oblast'];
 $city = $_POST['user_city'];
 $numpost = $_POST['user_numpost'];
+$suma = $_POST['user_suma'];
 
 
 //$mail->SMTPDebug = 3;                               // Enable verbose debug output
@@ -39,7 +40,7 @@ $mail->addAddress("lavandershop21@gmail.com", "Lav Shop");
 $mail->isHTML(true);                                  // Set email format to HTML
 
 $mail->Subject = 'Нове замовлення!';
-$mail->Body    = 'Замовник<br>ПІБ: ' .$name . '<br>Номер телефону: ' .$phone. '<br>Електронна пошта: ' .$email. '<br>Область: ' .$oblast. '<br>Місто: ' .$city. '<br>Відділення пошти: ' .$numpost;
+$mail->Body    = 'До сплати: '.$suma.'<br>Замовник<br>ПІБ: ' .$name . '<br>Номер телефону: ' .$phone. '<br>Електронна пошта: ' .$email. '<br>Область: ' .$oblast. '<br>Місто: ' .$city. '<br>Відділення пошти: ' .$numpost;
 $mail->AltBody = '';
 
 if(!$mail->send()) {

@@ -27,12 +27,13 @@ class Shopping{
           <div class="shopping-container">
           <h2 id="f">Ваше замовлення</h2><br>
           <div class="shopping-close" onclick="shoppingPage.handleClear();"></div>
+              <div class="form-inner">
               <table>
                   ${htmlCatalog}
               </table>
               <table>
                   <td  id="suma">Сума:  </td>
-                  <td id="rez">${sumCatalog.toLocaleString()} UAN</td>
+                  <td id="rez" name="user_suma">${sumCatalog.toLocaleString()} UAN</td>
               </table>
               <div class="form-inner">
                 <hr id="h">
@@ -43,8 +44,8 @@ class Shopping{
                 <input type="text" class="ip" name="user_oblast" placeholder="Область"><br>
                 <input type="text" class="ip" name="user_city" placeholder="Місто"><br>
                 <input type="text" class="ip" name="user_numpost" placeholder="Відділення пошти"><br><br><br><br><br>
-                <button type="submit" class="btn btn-primary" onclick="localStorage.clear(); location.reload();>Підтвердити замовлення</button>
-                <a href="lastp.html" class="bttn" onclick="localStorage.clear(); location.reload();">Підтвердити замовлення</a><br>
+                <button type="submit" class="bttn" class="btn btn-primary">Підтвердити замовлення
+                </button>
                 </form>
                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
                 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
